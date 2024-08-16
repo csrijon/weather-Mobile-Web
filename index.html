@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Mobile App</title>
+</head>
+
+<body>
+    <div class="total">
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+          </div>
+    <div class="askpermission">
+        <button class="btn" id="askperm">
+            <span class="material-symbols-outlined">location_on</span>
+            <p>Allow Location</p>
+        </button>
+    </div>
+    <header>
+        <ul>
+            <h1 id="city_name"></h1>
+            <li>
+                <span class="material-symbols-outlined">search</span>
+            </li>
+        </ul>
+    </header>
+    <div class="weathershow">
+        <div class="kol">
+            <h1  id="current-temp"></h1>
+        </div>
+    </div>
+    <div class="forecast">
+        <span id="icon" class="material-symbols-outlined">rainy</span>
+        <p  style="padding-left: 5px;" id="rainfall">Rainfall forecast</p>
+    </div>
+    <div class="daydetails">
+        <p class="tom" id="today-name" style="text-align: center;"></p><br>
+        <p style="text-align: center;">Expect the same as today</p>
+    </div>
+    <div class="dayshistory"></div>
+    <video id="video" autoplay loop playsinline preload="auto" muted>
+        <source src="6924608-hd_1080_1920_24fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="airquality">
+        <div class="firstsec">
+            <p style="text-align: center; padding-bottom: 10px; ">Air Quality</p>
+            <div class="line"></div>
+            <p class="good">Good 37</p>
+            <p class="Air">Air quality is suitable for outdoor activity</p>
+            <div class="colorline"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box one ">
+            <span class="material-symbols-outlined">
+                sunny
+            </span>
+            <p>UV</p>
+            <p id="uv-row"></p>
+        </div>
+        <div class="box two ">
+            <span class="material-symbols-outlined">
+                thermometer
+            </span>
+            <p>Feels like</p>
+            <p id="feels-like"></p>
+        </div>
+        <div class="box three ">
+            <span class="material-symbols-outlined">
+                humidity_high
+            </span>
+            <p>Humidity</p>
+            <p id="humidity-row"></p>
+        </div>
+        <div class="box four ">
+            <span class="material-symbols-outlined">
+                air
+            </span>
+            <p>SSE wind</p>
+            <p id="wind-speed"></p>
+        </div>
+        <div class="box five ">
+            <span class="material-symbols-outlined">airware</span>
+            <p>Pressure</p>
+            <p id="pressure"></p>
+        </div>
+        <div class="box six ">
+            <span class="material-symbols-outlined">visibility</span>
+            <p>Visibility</p>
+            <p id="visibility"></p>
+        </div>
+    </div>
+
+    <div class="lifestyle">
+        <div class="life">
+            <p style="text-align: center; padding-bottom: 10px; ">Lifestyle tips</p>
+            <div class="lifeline"></div>
+        </div>
+        <div class="col">
+            <span class="material-symbols-outlined">beach_access</span>
+            <p>Moderate UV</p>
+            <p>index</p>
+        </div>
+        <div class="col">
+            <span class="material-symbols-outlined">
+                directions_bus
+            </span>
+            <p>Water on road</p>
+        </div>
+        <div class="col">
+            <span class="material-symbols-outlined">directions_run</span>
+            <p>Suitable for</p>
+            <p>indoor workouts</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Made By Srijon</p>
+    </footer>
+  
+</div>
+    <script src="weather.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
