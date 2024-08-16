@@ -177,6 +177,7 @@ header ul span {
     width: 100%;
     padding: 9px;
     justify-content: space-around;
+    gap:5px;
 }
 .container .box {
     width: 100px;
